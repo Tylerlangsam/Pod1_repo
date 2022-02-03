@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Pod1_repo
 Justice Through Code Pod 1 Repository
 Pod Test Repo
@@ -76,6 +76,6 @@ For example: `serena-temperature`
 - Make sure your base is **your pod's repo** (for example: `pod5_test_repo`) and **not** `Justice-Through_Code/pod_test_repo`
 - Give a short description of your code and any questions you might have
 - Create Pull Request
->>>>>>> upstream/main
+
 
 Your T.A will review your pull request, make any comments, and merge into the pod repo!
