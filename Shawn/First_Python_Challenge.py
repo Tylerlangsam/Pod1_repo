@@ -2,12 +2,13 @@
 meal= 'Chocolate chip cookies'
 
 # print('1.2: Print the meal variable')
-print(meal)
+print('I had', meal, 'for lunch')
+
 
 # print('1.3: Update the meal variable to be a string describing what you want for dinner. print it out again')
 meal= 'meatloaf with extra gravy'
 x= meal.replace("Chocolate chip cookies", "meatloaf with extra gravy")
-print (x)
+print ('I want', x, 'for dinner')
 
 # print('2: How old is Google?')
 Google_age=2022-1993
