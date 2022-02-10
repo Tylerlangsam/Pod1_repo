@@ -11,11 +11,12 @@ x= meal.replace("Chocolate chip cookies", "meatloaf with extra gravy")
 print ('I want', x, 'for dinner')
 
 # print('2: How old is Google?')
-Google_age=2022-1993
-print(Google_age)
+29
+
 # 2.1: Google was founded in 1993. The current year is 2022. Create a variable called google_age, and use subraction
 # to figure out how old Google is
 # ex: my_age = current_year - birth_year
+Google_age= 2022-1993
 
 
 # 2.2: Print out a sentence about Google's age. Make sure to include your variable in the f-string!
