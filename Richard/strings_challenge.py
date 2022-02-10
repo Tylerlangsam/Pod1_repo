@@ -42,8 +42,8 @@ print(ingredients)
 # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
 # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
 # print `ingredients` to make sure the change stuck this time.
-ingredient_1 = 'butter'
-print(f'{ingredients}')
+ingredients = ingredients.replace('milk','butter')
+print(ingredients)
 
 # 2.6 That looks better. Let's make it official: print the ingredients list all-caps now that it's right.
 print(ingredients.upper())
@@ -56,7 +56,7 @@ activity = input('What do you like to do for fun? ')
 
 # 3.2 Create a second variable called `frequency` that asks the user:
 # Roughly how many times a week do you make time to <activity>? <-- use your `activity` variable in an f-string here
-frequency = int(input(f'How many times per week do you do {activity}? '))4
+frequency = int(input(f'How many times per week do you do {activity}? '))
 
 # 3.3 When the user inputs a number, what data type is it saved as?
 # Print out the _type_ of the `frequency` variable to check.
