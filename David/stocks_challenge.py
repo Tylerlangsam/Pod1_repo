@@ -14,17 +14,13 @@ print("Challenge 3.2.1: Taking user input")
 # TODO: Write code to ask the client his name and save it to a variable.
 name = input("What is your name?")
 # TODO: Write code to ask the client his savings and save it to another variable.
-savings = input("How much savings do you have?")
+savings = int(input("How much savings do you have?"))
 # TODO: Write code to ask the client the stock he is interested in and save it to another variable, as shown below.
 
 
 stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
 print(stock)
-amzn = amazon
-aapl = apple
-fb = fb
-goog = google
-msft = msft
+
 
 
 print("Challenge 3.2.2: Perform user-specific calculations")
@@ -33,30 +29,37 @@ print("Challenge 3.2.2: Perform user-specific calculations")
 
 #Your code should look like this:
 
-if(stock == amzn):
-    stock = (savings / amazon)
-    print(stock)
-elif(stock == apple):
-    stock = savings/apple 
-    print(stock)
-elif(stock == fb):
-    stock = savings/fb
-    print(stock)
-elif(stock == msft):
-    stock = savings/msft
-    print(stock)
-elif(stock == google):
-    stock = savings/google
-    print(stock)    
-else:
-    print("Do not buy any stocks.")
+if stock == "amzn":
+    share = savings/amazon
+    print(share)
+    price = amazon
+
+elif stock == "aapl":
+    share = savings/apple 
+    print(share)
+    price = apple
+
+elif stock == "fb":
+    share = savings/fb
+    print(share)
+    price = fb
+
+elif stock == "msft":
+    share = savings/msft
+    print(share)
+    price = msft
     
+elif stock == "goog":
+    share = savings/google
+    print(share)   
+    price = google
 
-
+else:
+    print("Do not buy any stock")
 
 #print("Challenge 3.2.3: Output for the user the result")
 # TODO: Once you have calculated the number of stocks that can be purchased, print the result for the client. Result should be in a format like this:
 #print (name +"has $5000 in savings and he can buy"+ shares+ "of"+ stock+ "at the current price of $+" stock)
 # Alex has $5000 in savings and he can buy 50 shares of Apple at the current price of $100.
-
+print(f'{name} has ${savings} in savings and he can buy {share} shares of {stock} at the current price of ${price}.')
 #print()
