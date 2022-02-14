@@ -15,7 +15,7 @@ print('2: How old is Google?')
 google_age = 2022 - 1993 
 print(google_age)
 # 2.2: Print out a sentence about Google's age. Make sure to include your variable in the f-string!
-print('Goolgle is 29 years old today.')
+print(f'Goolgle is {google_age} years old today.')
 
 
 # 2.3 How many _months_ old is Google? Create a new variable google_age_months, and use multiplication to figure it out,
