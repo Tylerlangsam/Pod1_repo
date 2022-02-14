@@ -16,7 +16,9 @@ print(celsius_0)
 # printing out the statement without saving any variables
 print((34.2 -32) * 5/9)
 
+# Convert a temperature of 5 degrees celsius to fahrenheit?
 fahrenheit_5 = ((5 * 9/5) + 32)
 print(fahrenheit_5)
 
 
+# Convert a temperature of 5 degrees celsius to fahrenheit?
