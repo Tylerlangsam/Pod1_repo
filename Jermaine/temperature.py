@@ -21,5 +21,4 @@ fahrenheit_5 = ((5 * 9/5) + 32)
 print(fahrenheit_5)
 
 
-# What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
-#30.2 celsius is hotter than 85.1 Farenheit
+# Convert a temperature of 5 degrees celsius to fahrenheit?
