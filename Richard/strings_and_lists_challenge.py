@@ -17,4 +17,6 @@ print(names_list)
 joined_names = '.'.join(names_list)
 print(joined_names)
 email = joined_names+'@ripplemedia.com'
+
 print(email)
+
