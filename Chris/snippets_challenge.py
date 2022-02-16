@@ -36,7 +36,7 @@ print("Code Snippet 3:")
 #modify the comparison operator below so the assert statement passes
 #update the print statement to reflect changes to the code
 
-a = 1
+a = 2
 b = 1
 c = (a == b)
 
