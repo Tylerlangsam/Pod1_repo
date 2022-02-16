@@ -1,3 +1,5 @@
+
+main
 # this variable is assigned a string
 movies_str = "House on Haunted Hill,Cruel Intentions,10 Things I Hate About You,My Favorite Martian,8MM,Fight Club,The Matrix,Any Given Sunday,The Thin Red Line,A Bug's Life, For Love of the Game, Instinct, Mickey Blue Eyes, The Best Man, Bicentennial Man, The 13th Warrior, October Sky, Lake Placid, Random Hearts, Mighty Joe Young, Superstar, Mystery Men, The Talented Mr. Ripley, Dogma, The Out-of-Towners, The Other Sister, Baby Geniuses, The Story of Us, Blast from the Past, The Insider, Saving Private Ryan, Mysteries of Egypt, The Wood, Arlington Road, T-Rex: Back to the Cretaceous, The Iron Giant, Edtv, At First Sight, The Faculty, Summer of Sam, The Bachelor, Stir of Echoes, Anna and the King, Man on the Moon, Galaxy Quest, Enemy of the State, Waking Ned Devine, Doug's 1st Movie,An Ideal Husband,Everest"
 # this variable is assigned a list of strings
