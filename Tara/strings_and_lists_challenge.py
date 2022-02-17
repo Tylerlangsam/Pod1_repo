@@ -1,7 +1,7 @@
 # You run a startup media company called Ripple Media
 # It's typical when you hire a new employee in your company, to setup an email id for them
 
-from ntpath import join
+
 
 
 employee_name = 'Ash Rahman'
