@@ -28,7 +28,7 @@ print(ingredients)
 
 # 2.2 Uh oh, one of these ingredients isn't quite right. Use one of our string methods to replace 'milk' with 'butter'
 # in a print statement
-print(my_f_string.replace('milk', 'butter'))
+print(ingredient_1.replace( '_old: milk', '_new: butter'))
 
 # When we use a string method in a print statement, does it change the string in our variable?
 # no
@@ -43,28 +43,37 @@ print(ingredients)
 # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
 # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
 # print `ingredients` to make sure the change stuck this time.
-print(ingredient_1.replace('milk', 'butter'))
+ingredient_1 = 'butter'
+print(ingredient_1.replace('_old: milk', 'new_: butter'))
 print(ingredients)
+my_f_string = f'butter, sugar,eggs,flour'
+print(my_f_string) 
+
 
 
 
 # 2.6 That looks better. Let's make it official: print the ingredients list all-caps now that it's right.
-print(ingredients.upper())
+print(my_f_string.upper())
 
 
 # 3 User Input/Type conversion
 # 3.1 Let's get some user input. Create a variable called `activity`, that saves the user's input to the question:
 # What is your favorite thing to do for fun?
+activity = input('What is your favorite thing to do for fun?')
+print('\n')
 
 
 # 3.2 Create a second variable called `frequency` that asks the user:
 # Roughly how many times a week do you make time to <activity>? <-- use your `activity` variable in an f-string here
+frequency = input(f'How many times a week do you make time to {activity}?')
+print('\n')
 
-
-# 3.3 When the user inputs a number, what data type is it saved as?
+# 3.3 When the user inputs a number, what data type is it saved as? class string
 # Print out the _type_ of the `frequency` variable to check.
-
+print(type(frequency))
+print('\n')
 
 # 3.4 Uncomment the print statements below, and use `type conversion` to fix the second one, allowing it to run
-# print('Research shows that making time for enjoyment actually makes you more focused.')
-# print(f'We recommend you {activity} at least {frequency * 2} times a week!')
+print('Research shows that making time for enjoyment actually makes you more focused.')
+activity = 'paddle board'
+print(f'We recommend you {activity} at least {frequency * 2} times a week!')
