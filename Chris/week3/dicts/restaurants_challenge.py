@@ -1,9 +1,13 @@
-print("Challenge: Favourite Restaurants")
+# Authors: Chris Kazas
+# Date: 2/17/22
+# 
+# W3 Challenge: Favorite Restaurants
+# 
 
-print()
+
+
 
 print("Question 1")
-
 '''
 Below is a dictionary consisting of details of 1 restaurant fetched from Yelp.
 
