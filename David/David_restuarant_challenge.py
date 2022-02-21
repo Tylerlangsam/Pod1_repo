@@ -113,6 +113,7 @@ Printing out all 3 of our restaurants every time is getting annoying. Let's clea
 # TODO: Put your 3 restaurant dictionaries into a list called `restaurants`
 # TODO: Loop through your list and print out the name and address of each restaurant
 
-reataurants = [restaurant_1],[restaurant_2],[restaurant_3]
+reataurants = [restaurant_1, restaurant_2, restaurant_3]
 for restaurant in reataurants:
-    print(restaurant)
+    print(restaurant['name'])
+    print(restaurant['address'])
