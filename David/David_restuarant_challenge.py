@@ -31,7 +31,7 @@ print(restaurant)
 
 # TODO: Write code to print the latitude and longitude of Four Barrel Coffee.
 #print(f'The latitude and longitutde for {[name]} is {[latitude]} and {[longitude]}')
-print(restaurant ["latitude"])
+print(restaurant["latitude"])
 print(restaurant ['longitude'])
 
 # TODO: Write code to print the complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code.
