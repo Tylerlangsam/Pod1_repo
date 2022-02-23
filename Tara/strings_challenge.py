@@ -76,4 +76,4 @@ print('\n')
 # 3.4 Uncomment the print statements below, and use `type conversion` to fix the second one, allowing it to run
 print('Research shows that making time for enjoyment actually makes you more focused.')
 activity = 'paddle board'
-print(f'We recommend you {activity} at least {frequency * 2} times a week!')
+print(f'We recommend you {activity} at least {frequency * 2 } times a week!')
