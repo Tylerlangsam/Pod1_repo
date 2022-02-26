@@ -46,6 +46,9 @@ num_songs = get_playlist_length(my_playlist)
 print(num_songs)
 
 
+
+import numpy as np
+
 # 7 At the top of this script, import numpy using the usual alias
 
 # 8: Using numpy, calculate the average monthly plays for a song
@@ -53,7 +56,7 @@ print(num_songs)
 # You don't have to write any functions for this question
 print('Question 8')
 monthly_plays = [127030, 274920, 232453, 98278, 500301, 235462]
-
+print("mean of monthly_plays : ", np.mean(monthly_plays))
 
 # BONUS In playlist_functions.py, define a new function called play_track()
 # See playlist_functions.py for details on how to define this function
