@@ -1,3 +1,6 @@
+from tokenize import String
+
+
 print('Question 1:')
 # You are working on a library management system, here are the list books at the library
 books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU WANT TO TALK ABOUT RACE', 'STAMPED FROM THE BEGINNING', 'JUST MERCY', 'BORN A CRIME',
@@ -6,6 +9,7 @@ books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU 
 # 1.0
 # What data type is the object 'books'? How do you know?
 print(type(books))
+# String
 
 
 
@@ -60,7 +64,7 @@ def search_by_name(book):
 
 search_by_name('JUST MERCY')
 
-print()
+print(search_by_name)
 
 print('Question 2')
 # Here's the same list of books, with additional details
@@ -169,9 +173,16 @@ print(num_books)
 # Return - author's books (list of strings)
 # Hint - You will need a for loop, if statement, .append() for this solution!
 def search_by_author(author):
-    return
+    list_of_books = []    
+    for book in books_with_details:
+        if  author == book['author']:
+            list_of_books.append(book['title'])
+            print(list_of_books)
+    
+    return list_of_books
 
 # 2.4
 # Search for book titles by the author 'Timothy Snyder' using the search_by_author function
-search_by_author()
+search_by_author('Timothy Snyder')
+
 
