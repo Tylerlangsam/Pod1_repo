@@ -5,7 +5,8 @@ days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satur
 
 # Let's start simple, and build up from there.
 # 1.1: Write a for loop that prints out each day in the `days` variable above.
-
+for names in days:
+    print(names)
 
 
 # 1.2: Now, instead of printing out the day, let's ask the user what their favorite thing
