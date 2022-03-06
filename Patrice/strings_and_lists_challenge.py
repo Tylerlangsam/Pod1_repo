@@ -23,5 +23,5 @@ print(joined_names)
 
 joined_names = {"Ash": "Rahman"}
 email = "@ripplemedia.com"
-print(f{"joined_names + email})
+print(f'{"joined_names + email"}')
 
