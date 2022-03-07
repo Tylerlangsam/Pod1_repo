@@ -5,17 +5,16 @@ books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU 
 
 # 1.0
 # What data type is the object 'books'? How do you know?
-# string
 print(type(books))
-
-
+# THE DATA TYPE IS A LIST BECAUSE OF THE [ ] BRACKETS
 
 # 1.1
 # Create a function 'available_books' to print the books list
-def available_books():
-    print(books)
 # Parameters: Not needed for this function
 # Return: Not needed for this function
+
+def available_books():
+    print(books)
 
 # 1.2
 # Run the 'available_books' function
@@ -25,14 +24,27 @@ available_books()
 # Create a function 'check_out' that removes a book from the books list
 # Parameters: book (string)
 # Return: Not needed for this function
-def check_out(book):
-    books.remove(book)
+
+def check_out():
+    check_out_book = input('Which book would you like to check out? \n')
+    if check_out_book in books:
+        books.remove(check_out_book)
+    else:
+        print('Book not in list!')
+    print(books)
+
+check_out()  #check out function
+
 # 1.4
 # Check out 'SAPIENS' using the check_out function
-check_out('SAPIENS')
+def check_out(book):
+    books.remove(book)
+    print(books)
 
+check_out('SAPIENS')
 # Bonus: Run available_books function again to see if the book was checked out
 available_books()
+
 # 1.5
 # Create a function 'check_in' that adds a book to the books list
 # Parameters: book (string)
@@ -43,6 +55,7 @@ def check_in(book):
 # 1.6
 # Check in 'SAPIENS' using the check_in function
 check_in('SAPIENS')
+
 # Bonus: Run available_books function to see if the book was checked in
 available_books()
 
@@ -50,15 +63,23 @@ available_books()
 # Create a function 'search_by_name' that prints 'Available' if exists in books list, 'Not Available' if it doesn't.
 # Parameters: book (string)
 # Return: Not needed for this function
+# def search_by_name(book):
+#     y = input('Which book are you asking about? \n')
+#     books.count(y)
+#     if y == 0:
+#         print("Not in list")
+#     elif y== 1:
+#         print("In list!")
+
 def search_by_name(book):
     if book in books:
-        print('available')
+        print('Available')
     else:
-        print("Not available")
+        print('Not Available')
+search_by_name('ON TYRANNY')
 
 # 1.8
 # Search for the book 'JUST MERCY'
-
 search_by_name('JUST MERCY')
 
 print()
@@ -150,29 +171,45 @@ books_with_details = [
 # 2.0
 # Describe the structure of the data in books_with_details. What types of data are nested within others? How do you know?
 print(type(books_with_details))
-
+# list of dictionaries
 
 # 2.1
 # Create a function 'count_books' that returns the number of books in the books_with_details list
 # Parameters: Not needed for this function
 # Return: number of books (integer)
+
+
 def count_books():
     return len(books_with_details)
 
+
+
 # 2.2
 # Check the number of books available in the books list using the count_books function
-num_books = count_books ()
-print(num_books)
+print (count_books())
+
 
 # 2.3
 # Create a function 'search_by_author' that returns the titles of books by an author
 # Parameters - author (string)
 # Return - author's books (list of strings)
 # Hint - You will need a for loop, if statement, .append() for this solution!
-def search_by_author(author):
-    return
+
+# print(books_with_details[1]['author'])
+
+# for x in books_with_details:
+#     print(x["author"])
+
+def search_by_author(name):
+    number = []
+    for x in books_with_details:
+        if x["author"] == name:
+            number.append(x["title"])
+            number.append(x["author"])
+    print(number)
+
 
 # 2.4
 # Search for book titles by the author 'Timothy Snyder' using the search_by_author function
-search_by_author()
 
+search_by_author('Timothy Snyder')
