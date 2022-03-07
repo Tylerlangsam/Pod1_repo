@@ -4,6 +4,7 @@
 # But, you'll run your functions here
 
 # 1 Import all the functions in playlist_functions.py
+from cmath import log
 from playlist_functions import*
 import numpy as np
 
