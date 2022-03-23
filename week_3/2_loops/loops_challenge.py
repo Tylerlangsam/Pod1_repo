@@ -15,6 +15,7 @@ for names in days:
 
 
 
+
 # 1.3: We should keep track of the user's favorite things to do so that we can print them out all together.
 # ABOVE your for loop, create a new empty list to hold the user's favorite activities.
 
