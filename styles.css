@@ -1,0 +1,40 @@
+h1{text-align: center;}
+
+.para {
+    color: rgb(0, 255, 128);
+    font-family: 'veranda';
+    font-size: 20px;
+}
+ol {
+    font-family: 'veranda';
+    font-size: 25px;}
+
+#li1 {
+    color: darkslateblue;
+    font-style: italic;
+}
+#li2 {color: orangered;}
+#li3 {color: goldenrod;}
+
+.container {
+    display: square;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+form label{
+    font-weight:bold;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
