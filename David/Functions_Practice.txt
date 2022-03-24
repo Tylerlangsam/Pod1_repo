@@ -1,0 +1,5 @@
+Functions_Practice
+
+def Hi():
+    print (hello)
+Hi
