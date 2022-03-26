@@ -1,0 +1,40 @@
+#     Convert a temperature of 100 degrees fahrenheit to celsius
+#         Save this to a variable called celsius_100, and use print() to print out the value
+from tokenize import Intnumber
+
+
+celsius_100= (100-32)*5/9 
+print(celsius_100)       
+# *I'm using fahrenheit to celsius formula: F-32*5/9 to get answer, and celsius_100 is the variable.
+
+
+# Is the resulting temperature you get an integer or float? How do you know?
+# *The result is a float because it is a decimal and can be checked using:
+i = 37.77777777777778
+print(type(i))
+
+
+#     Convert a temperature of 0 degrees fahrenheit to celsius
+#         Save this to a variable called celsius_0, and use print() to print out the value
+celsius_0= (0-32)*5/9
+print(celsius_0)
+# *I'm using the fahrenheit to celsius formula again, but this time celsius_0 is the variable.
+
+
+#     Convert a temperature of 34.2 degrees fahrenheit to celsius
+#         Do this one all in one print statement without saving any variables
+print((34.2-32) * (5/9))
+# *I'm using formula again to convert fahrenheit to celsius. Printing results without assignment to a variable.
+
+# Now, can you convert back?
+
+#     Convert a temperature of 5 degrees celsius to fahrenheit?
+#    *41 degrees farenheit
+print((5*1.8) + 32)
+# *I'm using C*1.8+32 formula for coverting celsius to fahrenheit. Again, without assignment of a variable.
+
+
+#     What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
+print((30.2*1.8) + 32)     
+# *30.2 degrees celsius
+# *I'm converting 30.2 celsius to fahrenheit, so I see if higher or lower than 85.1 F
