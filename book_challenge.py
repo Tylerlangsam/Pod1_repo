@@ -26,7 +26,9 @@ Also, print out the type of my_library to see what you get :)
 '''
 print('PART 1\n')
 
-
+my_library = Booklist()
+print(my_library)
+print(type(my_library))
 '''
 Part #2:
 In book_list_class.py:
@@ -46,7 +48,12 @@ Finally, print the books attribute of my_library to make sure your books have be
 '''
 print('\nPart 2\n')
 
+my_library.add("Just Mercy", "Bryan Stevenson")
+my_library.add("The New Jim Crow", "Michelle Alexander")
+my_library.add("The Truths We Hold", "Kamala Harris")
+my_library.add("My Grandmother's Hands", "Resmaa Menakem")
 
+print(my_library.books)
 
 '''
 Part #3:
@@ -60,7 +67,7 @@ Once you have finished the method, count the books in my_library and print out t
 '''
 print('\nPart 3\n')
 
-
+print(my_library.count_books())
 
 '''
 Part #4:
@@ -76,7 +83,8 @@ Then, print out the books attribute to make sure that book is gone
 '''
 
 print('\nPart 4\n')
-
+my_library.remove_title('Just Mercy')
+print(my_library.books)
 
 '''
 Part #5:
@@ -90,9 +98,12 @@ Then, print out the books attribute of nyt_bestsellers
 '''
 
 print('\nPart 5\n')
+nyt_bestsellers = Booklist()
 
+nyt_bestsellers.add("The Gates of Europe", "Serhii Plokhy")
+nyt_bestsellers.add("The Splendid and the Vile","Erik Larson")
 
-
+print(nyt_bestsellers.books)
 '''
 BONUS Part #6:
 In book_list_class.py:
