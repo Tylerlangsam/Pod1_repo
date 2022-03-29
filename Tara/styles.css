@@ -1,0 +1,27 @@
+.center {
+    text-align: center;
+}
+.font_calibri {
+    font-family: calibri;
+}
+.blue {
+    color: rgb(0, 83, 128);
+}
+#fact1 {
+    color: rgb(213, 22, 54);
+}
+#fact2 {
+    color: rgb(89, 32, 89);
+}
+#fact3 {
+    color: rgb(128, 0, 75);
+    font-style: italic;
+}
+form {
+    font-weight: bold;
+}
+.center_img {
+    display: outside;
+    margin-left: auto;
+    margin-right: auto;
+}
