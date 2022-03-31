@@ -1,0 +1,38 @@
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 450px;
+}
+
+#fact1 {
+    color: #0E185F;
+}
+#fact2 {
+    color: #2FA4FF;
+    font-style:italic;
+}
+#fact3 {
+    color: #890F0D;
+}
+
+.center {
+    text-align: center;
+}
+.facts {
+    font-family: Verdana;
+}
+
+.coding-comments {
+    font-family: Verdana;
+    color: blue;}
+
+h1{ 
+    font-family: Verdana;
+}
+
+h2{
+    font-family: Verdana;  
+}
+
