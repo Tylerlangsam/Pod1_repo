@@ -1,0 +1,28 @@
+#title-h1 {
+    text-align: center;
+}
+
+.text_type {
+
+    font-family: Verdana;
+}
+
+.text_color {
+    color: blueviolet;
+}
+
+#li1 {
+    color: red;
+}
+#li2 {
+    color:aquamarine
+}
+
+#li3 {
+    color:coral;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
