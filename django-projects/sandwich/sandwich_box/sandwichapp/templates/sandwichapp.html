@@ -1,0 +1,17 @@
+<h1> Welcome to Tara's Sandwich Shop</h1>
+
+<h3>Ingredients</h3>
+
+<ul>
+    {% for ingredient in ingredients %}
+    </li>
+        <a href="/sandwich/ingredients/"{{ ingredient }}>{{ ingredients }}</a>
+    </li> 
+    {% endfor %}
+</ul>
+
+<p>Click the button to make sandwich</p>
+
+<form action="/sandwich/random">
+    <input type="submit" value="Make a Sandwich">
+</form>
