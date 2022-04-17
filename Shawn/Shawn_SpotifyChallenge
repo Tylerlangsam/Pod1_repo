@@ -1,0 +1,24 @@
+Spotify Challenge Answers
+
+
+Question 1:
+-----------
+a) Briefly describe a better way of modeling genre data in the database to avoid some of the 
+   issues listed above. You can assume for the sake of simplicity there can be only one genre per song. 
+
+Create a table called GENRE. Then in it, have a column called "ID" for the primary keys 
+to another column called "Genre", (that are the different types of genres in the database).
+
+
+b) What relationship best describes how genre relates to songs in your answer to Question 1a? 
+
+One to many.
+
+
+Question 2: 
+-----------
+What changes would you make to the modeling of genre data if we could assign more than one genre to a song?
+
+Create a table that uses foreign keys for Song and Genre.
+
+ 
